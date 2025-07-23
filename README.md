@@ -36,3 +36,4 @@ For more guidance, see the [Foundry VTT macro documentation](https://foundryvtt.
 * These macros are built specifically for the **Alien RPG** system and may not work with other game systems.
 * Ensure you have the latest version of the **Alien RPG system module** installed in Foundry VTT.
 * You may wish to customise the rollable tables with your own panic effects depending on your house rules or campaign tone.
+* Disclaimer: All code was human-generated, but I cannot write good, so this readme was AI-generated.
