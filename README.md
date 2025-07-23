@@ -1,31 +1,38 @@
 # Alien RPG – Stress System Macros for Foundry VTT
 
-This repository contains two macros designed for use with the **Alien RPG** system in **Foundry Virtual Tabletop (VTT)**. These macros implement the *new panic system* introduced by **Free League Publishing**, allowing for smoother gameplay automation.
+This repository contains a set of macros designed for use with the **Alien RPG** system in **Foundry Virtual Tabletop (VTT)**. These scripts implement the *new panic system* introduced by **Free League Publishing**, streamlining stress and panic mechanics for faster, more immersive gameplay.
 
 ## 📦 Contents
 
-The repository includes the following macros:
+This repository includes the following macros and supporting tables:
 
 * **Combat Stress**
-  Use this macro in any situation **other than** a skill roll (e.g., during combat encounters, panic events, or environmental triggers).
+  Use this macro in any situation **other than** a skill roll (e.g. during combat encounters, panic events, or environmental triggers).
 
 * **Skill Stress**
-  Use this macro specifically when making **skill-based rolls** if a fachugger is rolled.
+  Use this macro specifically when making **skill-based rolls** that result in a *facehugger* (⚠) symbol.
+
+* **Panic V2 Table**
+  A required rollable table used by the Combat Stress macro to determine the appropriate panic effect.
+
+* **Skill Panic V2 Table**
+  A required rollable table used by the Skill Stress macro to resolve panic outcomes during skill rolls.
 
 ## 🛠 Installation
 
-To install these macros in Foundry VTT:
+To install and use these macros in Foundry VTT:
 
-1. Open Foundry VTT and load your Alien RPG world.
+1. Open Foundry VTT and load your **Alien RPG** world.
 2. Navigate to the **Macros** tab.
-3. Create a new macro and copy-paste the contents of the desired script from this repository.
-4. Assign an icon and name to the macro.
-5. Drag it to your hotbar for quick access.
+3. Create a new macro and paste in the contents of the relevant script from this repository.
+4. Name the macro and assign it an icon.
+5. Drag the macro to your hotbar for easy access.
+6. Import the required rollable tables (`Panic V2` and `Skill Panic V2`) into your world via the **Rollable Tables** directory.
 
-Foundry VTT has [excellent documentation and community guides](https://foundryvtt.com/article/macros/) if you’re unfamiliar with macro setup.
+For more guidance, see the [Foundry VTT macro documentation](https://foundryvtt.com/article/macros/).
 
 ## 📌 Notes
 
-* These macros are tailored for the **Alien RPG system** and may not function correctly with other game systems.
-* Ensure you have the latest version of the Alien RPG system module installed in Foundry VTT.
-
+* These macros are built specifically for the **Alien RPG** system and may not work with other game systems.
+* Ensure you have the latest version of the **Alien RPG system module** installed in Foundry VTT.
+* You may wish to customise the rollable tables with your own panic effects depending on your house rules or campaign tone.
