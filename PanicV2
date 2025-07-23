@@ -1,0 +1,44 @@
+main();
+
+async function main() {
+  const actor = canvas.tokens.controlled[0]?.actor;
+  if (!actor) {
+    ui.notifications.warn("No token is selected!");
+    return;
+  }
+
+  // --- Get Attribute Values ---
+  const emp = actor.system.attributes.emp.value;
+  const wit = actor.system.attributes.wit.value;
+  const stress = actor.system.header.stress.value;
+
+  const resolve = Math.ceil((emp + wit) / 2);
+
+  // --- Roll the Panic Die (with Dice So Nice animation if available) ---
+  const panicRoll = new Roll("1d6");
+  await panicRoll.evaluate({ async: true });
+  if (game.dice3d) await game.dice3d.showForRoll(panicRoll);  // Optional animation
+
+  const panicDie = panicRoll.total;
+  const panicResult = panicDie + stress - resolve;
+
+  // --- Output to Chat ---
+  await ChatMessage.create({
+    speaker: ChatMessage.getSpeaker({ actor }),
+    flavor: `<strong>💀 PANIC Roll</strong><br>1d6 (${panicDie}) + Stress (${stress}) − Resolve (${resolve}) = <strong>${panicResult}</strong>`,
+    content: `<strong>PANIC VALUE: ${panicResult}</strong>`
+  });
+
+  // --- Look Up Result on the Panic Table ---
+  const table = game.tables.getName("PanicV2");
+  if (!table) {
+    ui.notifications.error("Panic table 'PanicV2' not found!");
+    return;
+  }
+
+  // Pass the panic result directly to the table
+  await table.draw({
+    roll: new Roll(`${panicResult}`),
+    displayChat: true
+  });
+}
