@@ -1,6 +1,6 @@
 # Alien RPG – Stress System Macros for Foundry VTT
 
-This repository contains two macros designed for use with the **Alien RPG** system in **Foundry Virtual Tabletop (VTT)**. These macros implement the *new stress system* introduced by **Free League Publishing**, allowing for smoother gameplay automation.
+This repository contains two macros designed for use with the **Alien RPG** system in **Foundry Virtual Tabletop (VTT)**. These macros implement the *new panic system* introduced by **Free League Publishing**, allowing for smoother gameplay automation.
 
 ## 📦 Contents
 
@@ -10,7 +10,7 @@ The repository includes the following macros:
   Use this macro in any situation **other than** a skill roll (e.g., during combat encounters, panic events, or environmental triggers).
 
 * **Skill Stress**
-  Use this macro specifically when making **skill-based rolls** that require stress dice.
+  Use this macro specifically when making **skill-based rolls** if a fachugger is rolled.
 
 ## 🛠 Installation
 
