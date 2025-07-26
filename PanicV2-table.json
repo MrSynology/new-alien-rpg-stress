@@ -7,8 +7,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        -99,
+        0
       ],
       "drawn": false,
       "_id": "0iY7JdgztjYge11t",
@@ -21,8 +21,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        2,
-        2
+        1,
+        1
       ],
       "drawn": false,
       "_id": "N8Sa1bnUBLxu1eCC",
@@ -35,8 +35,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        3,
-        3
+        2,
+        2
       ],
       "drawn": false,
       "_id": "gJswSwC1EAcgHnrO",
@@ -49,8 +49,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        4,
-        4
+        3,
+        3
       ],
       "drawn": false,
       "_id": "jbU8Qp11lvmKFIpU",
@@ -63,8 +63,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        5,
-        5
+        4,
+        4
       ],
       "drawn": false,
       "_id": "1GdhOC1uIsjlNjID",
@@ -77,8 +77,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        6,
-        6
+        5,
+        5
       ],
       "drawn": false,
       "_id": "nYtJbdgFXZVLFJUM",
@@ -91,8 +91,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        7,
-        7
+        6,
+        6
       ],
       "drawn": false,
       "_id": "E4GamjTSRruN7EhI",
@@ -105,8 +105,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        8,
-        8
+        7,
+        7
       ],
       "drawn": false,
       "_id": "37nXj490RxyOJ2Ua",
@@ -119,8 +119,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        9,
-        9
+        8,
+        8
       ],
       "drawn": false,
       "_id": "aqDtak5vh7VHJw65",
@@ -133,8 +133,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        10,
-        10
+        9,
+        9
       ],
       "drawn": false,
       "_id": "U8idH5TgXNtGrcpC",
@@ -147,8 +147,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        11,
-        11
+        10,
+        10
       ],
       "drawn": false,
       "_id": "37Y9dMlbHozizaqP",
@@ -161,8 +161,8 @@
       "type": "text",
       "weight": 1,
       "range": [
-        12,
-        12
+        11,
+        11
       ],
       "drawn": false,
       "_id": "mrTKTYlbOprBSiKs",
@@ -175,14 +175,44 @@
       "type": "text",
       "weight": 1,
       "range": [
-        13,
-        13
+        12,
+        99
       ],
       "drawn": false,
       "_id": "9znMgQNUD9i42TKg",
       "text": "Catatonic. You’re doomed! You collapse to the floor and can’t move, rambling or staring blankly into oblivion, until your panic stops.",
       "img": "icons/svg/d20-black.svg",
       "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": "document",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Paranoid",
+      "documentId": "4kPqHWGDlEoKS9Kd",
+      "img": "modules/alienrpg-corerules/images/Panic-Cards/paranoid.png",
+      "_id": "ijJrjPhKcccoN4Dw",
+      "flags": {}
+    },
+    {
+      "type": "document",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Hesitant",
+      "documentId": "CyfRqovGuzjk5PBL",
+      "img": "modules/alienrpg-corerules/images/Panic-Cards/Hesitant.png",
+      "_id": "FBN7GKJP5M8xH1ZP",
       "flags": {}
     }
   ],
@@ -202,7 +232,7 @@
     "systemId": "alienrpg",
     "systemVersion": "3.2.4",
     "createdTime": 1752408368057,
-    "modifiedTime": 1752412627519,
+    "modifiedTime": 1753532538032,
     "lastModifiedBy": "UdoUZsuUiToXKTmh"
   },
   "formula": "1d13"

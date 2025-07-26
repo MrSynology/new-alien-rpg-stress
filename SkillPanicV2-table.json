@@ -1,0 +1,232 @@
+{
+  "name": "SkillPanicV2",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        -99,
+        0
+      ],
+      "drawn": false,
+      "_id": "lxqC4XyS4uTUSKvt",
+      "text": "Keeping Cool. No effect.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Uc9hff8X2W1Zwd9b",
+      "text": "Shakes. All skill rolls based on Agility get –2 dice.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "RRqkS1pCSJnT0I8p",
+      "text": "Frantic. All skill rolls based on Strength get –2 dice.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "hhsqVZor5iDdPZ7D",
+      "text": "Deflated. You cannot push any skill rolls. If you are Jumpy (#1 above), remove that response, and ignore any further Jumpy results while Deflated.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        99
+      ],
+      "drawn": false,
+      "_id": "6hMCHwXfhNympKW2",
+      "text": "Mess Up. Your action fails regardless of 6s rolled and you gain +1 stress level.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": "document",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "text": "Jumpy",
+      "documentId": "eSszq9Lx24lhUFwJ",
+      "img": "modules/alienrpg-corerules/images/Panic-Cards/Jumpy.png",
+      "_id": "jNSAztmYoUVe4yPa",
+      "flags": {}
+    },
+    {
+      "type": "document",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "text": "Tunnel Vision",
+      "documentId": "7VGTuMYSyfEQXh3E",
+      "img": "modules/alienrpg-corerules/images/Panic-Cards/Tunnel-vision.png",
+      "_id": "RR2RMO1evYIG5nbO",
+      "flags": {}
+    },
+    {
+      "type": "document",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "text": "Aggravated",
+      "documentId": "sDNPL7w75mHTAdrk",
+      "img": "modules/alienrpg-corerules/images/Panic-Cards/Aggrivated.png",
+      "_id": "eeStgfBnSmTu565Z",
+      "flags": {}
+    },
+    {
+      "type": "document",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "text": "Shakes",
+      "documentId": "soWTwRrmXh7Dzhda",
+      "img": "modules/alienrpg-corerules/images/Panic-Cards/Shakes.png",
+      "_id": "iPilegWZxLnDOzU0",
+      "flags": {}
+    },
+    {
+      "type": "text",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "RZexW9fUSq8DifYx",
+      "text": "Jumpy. When you push a skill roll, you gain +2 stress level instead of +1.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": "text",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "t2SIdKWrYRsZL3la",
+      "text": "Tunnel Vision. All skill rolls based on Wits get –2 dice.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": "document",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "text": "Frantic",
+      "documentId": "ViVdvkbO9wo109kE",
+      "img": "modules/alienrpg-corerules/images/Panic-Cards/Frantic.png",
+      "_id": "cT15bdmRhy6XFIim",
+      "flags": {}
+    },
+    {
+      "type": "document",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "text": "Deflated",
+      "documentId": "uVRpDNZpVruLot46",
+      "img": "modules/alienrpg-corerules/images/Panic-Cards/Deflated.png",
+      "_id": "1QMJOHtn5DRaHdfA",
+      "flags": {}
+    },
+    {
+      "type": "text",
+      "documentCollection": "Item",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "hUrqI6dliflWdfXA",
+      "text": "Aggravated. All skill rolls based on Empathy get –2 dice.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "flags": {
+    "exportSource": {
+      "world": "a-cold-one-with-the-boyz",
+      "system": "alienrpg",
+      "coreVersion": "12.343",
+      "systemVersion": "3.2.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "alienrpg",
+    "systemVersion": "3.2.4",
+    "createdTime": 1752412938523,
+    "modifiedTime": 1753532342310,
+    "lastModifiedBy": "UdoUZsuUiToXKTmh"
+  },
+  "formula": "1d8"
+}
