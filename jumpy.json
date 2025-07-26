@@ -1,0 +1,40 @@
+{
+  "folder": "aMDioY3CLwUCIibC",
+  "name": "Jumpy",
+  "type": "agenda",
+  "img": "modules/alienrpg-corerules/images/Panic-Cards/Jumpy.png",
+  "system": {
+    "attributes": {
+      "flag": {
+        "value": 0,
+        "label": "Flag"
+      }
+    },
+    "general": {
+      "comment": {
+        "value": "<p>Jumpy. When you push a skill roll, you gain +2 stress level instead of +1.</p>",
+        "label": "Text"
+      }
+    },
+    "notes": {
+      "notes": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "a-cold-one-with-the-boyz",
+      "system": "alienrpg",
+      "coreVersion": "12.343",
+      "systemVersion": "3.2.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "alienrpg",
+    "systemVersion": "3.2.4",
+    "createdTime": 1753531378992,
+    "modifiedTime": 1753531574484,
+    "lastModifiedBy": "UdoUZsuUiToXKTmh"
+  }
+}

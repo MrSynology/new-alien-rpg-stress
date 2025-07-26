@@ -1,0 +1,40 @@
+{
+  "folder": "aMDioY3CLwUCIibC",
+  "name": "Aggravated",
+  "type": "agenda",
+  "img": "modules/alienrpg-corerules/images/Panic-Cards/Aggrivated.png",
+  "system": {
+    "attributes": {
+      "flag": {
+        "value": 0,
+        "label": "Flag"
+      }
+    },
+    "general": {
+      "comment": {
+        "value": "<p>Aggravated. All skill rolls based on Empathy get &ndash;2 dice.</p>",
+        "label": "Text"
+      }
+    },
+    "notes": {
+      "notes": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "a-cold-one-with-the-boyz",
+      "system": "alienrpg",
+      "coreVersion": "12.343",
+      "systemVersion": "3.2.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "alienrpg",
+    "systemVersion": "3.2.4",
+    "createdTime": 1753531625877,
+    "modifiedTime": 1753531635411,
+    "lastModifiedBy": "UdoUZsuUiToXKTmh"
+  }
+}

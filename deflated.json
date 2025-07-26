@@ -1,0 +1,40 @@
+{
+  "folder": "aMDioY3CLwUCIibC",
+  "name": "Deflated",
+  "type": "agenda",
+  "img": "modules/alienrpg-corerules/images/Panic-Cards/Deflated.png",
+  "system": {
+    "attributes": {
+      "flag": {
+        "value": 0,
+        "label": "Flag"
+      }
+    },
+    "general": {
+      "comment": {
+        "value": "<p>Deflated. You cannot push any skill rolls.</p>\n<p>If you are Jumpy (#1 above), remove that response, and ignore any further Jumpy results while Deflated.</p>",
+        "label": "Text"
+      }
+    },
+    "notes": {
+      "notes": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "a-cold-one-with-the-boyz",
+      "system": "alienrpg",
+      "coreVersion": "12.343",
+      "systemVersion": "3.2.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "alienrpg",
+    "systemVersion": "3.2.4",
+    "createdTime": 1753531836788,
+    "modifiedTime": 1753531858406,
+    "lastModifiedBy": "UdoUZsuUiToXKTmh"
+  }
+}

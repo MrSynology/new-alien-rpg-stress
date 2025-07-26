@@ -1,0 +1,40 @@
+{
+  "folder": "aMDioY3CLwUCIibC",
+  "name": "Paranoid",
+  "type": "agenda",
+  "img": "modules/alienrpg-corerules/images/Panic-Cards/paranoid.png",
+  "system": {
+    "attributes": {
+      "flag": {
+        "value": 0,
+        "label": "Flag"
+      }
+    },
+    "general": {
+      "comment": {
+        "value": "<p>You cannot give or receive help on skill rolls until panic ends.</p>",
+        "label": "Text"
+      }
+    },
+    "notes": {
+      "notes": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "a-cold-one-with-the-boyz",
+      "system": "alienrpg",
+      "coreVersion": "12.343",
+      "systemVersion": "3.2.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "alienrpg",
+    "systemVersion": "3.2.4",
+    "createdTime": 1753530717911,
+    "modifiedTime": 1753530979747,
+    "lastModifiedBy": "UdoUZsuUiToXKTmh"
+  }
+}

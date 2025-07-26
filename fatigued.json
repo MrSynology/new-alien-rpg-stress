@@ -1,0 +1,40 @@
+{
+  "folder": "aMDioY3CLwUCIibC",
+  "name": "Fatigued",
+  "type": "agenda",
+  "img": "modules/alienrpg-corerules/images/Panic-Cards/Fatigued.png",
+  "system": {
+    "attributes": {
+      "flag": {
+        "value": 0,
+        "label": "Flag"
+      }
+    },
+    "general": {
+      "comment": {
+        "value": "<p>You cannot recover Health.</p>\n<p><br>Continue to make SURVIVAL&nbsp;rolls at regular intervals.</p>\n<p>&nbsp;</p>\n<p>Each failed roll causes 1 point of&nbsp;damage and +1 stress level.&nbsp;</p>\n<p>&nbsp;</p>\n<p>If broken by fatigue, make death&nbsp;rolls for STAMINA at the same&nbsp;interval as the SURVIVAL rolls.</p>",
+        "label": "Text"
+      }
+    },
+    "notes": {
+      "notes": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "exportSource": {
+      "world": "a-cold-one-with-the-boyz",
+      "system": "alienrpg",
+      "coreVersion": "12.343",
+      "systemVersion": "3.2.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "alienrpg",
+    "systemVersion": "3.2.4",
+    "createdTime": 1753531104263,
+    "modifiedTime": 1753531168764,
+    "lastModifiedBy": "UdoUZsuUiToXKTmh"
+  }
+}
