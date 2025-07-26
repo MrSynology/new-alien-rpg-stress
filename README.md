@@ -31,6 +31,9 @@ To install and use these macros in Foundry VTT:
 
 For more guidance, see the [Foundry VTT macro documentation](https://foundryvtt.com/article/macros/).
 
+## Updates
+Fixed the tables being off by one - added agenda cards representing the conditions for the players to reference
+
 ## 📌 Notes
 
 * These macros are built specifically for the **Alien RPG** system and may not work with other game systems.
